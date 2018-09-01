@@ -2,11 +2,13 @@ As primeiras linhas são as "declarações dos parâmetros".
 
 all,run e clean são diretivas padrão do make, porem não obrigatórias.
 
-Depois de "declarado um parâmetro", é necessario um $(PARA_USA-LO)
+Depois de "declarado um parâmetro", é necessario um $(PARA_USA-LO).
 
-%.o pega como entrada e usa em todas as rules a string antes do .o
-$< O primeiro pré-requisito (geralmente o arquivo de origem)
-$@ É o nome do arquivo que está sendo gerado
+%.o pega como entrada e usa em todas as rules a string antes do .o .
+
+$< O primeiro pré-requisito (geralmente o arquivo de origem).
+
+$@ É o nome do arquivo que está sendo gerado.
 
 Todas as bibliotecas são por padrão chamadas de lib"alguma coisa", por isso a lib"db",(libdb) e
 na hora de incluir as bibliotecas, é somente utilizado -ldb de -l de lib e db de libdb.
